@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by BrianDKG (http://jsbin.com/wamovix/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>KG Online ID</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style id="jsbin-css">
+/* CSS reset */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozícionálás */
+
+.head {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+/* az url után találod a háttérképet */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image:  /*url("https://unsplash.com/search/photos/coding?photo=iacpoKgpBAM");*/
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+.head {
+ /* background-color: pink; */
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+.content {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .0);
+}
+
+.profile-image {
+  /*background-color: pink;*/
+  margin-top: -60px;
+}
+
+.name-headline {
+  /*background-color: pink;*/
+}
+
+.about {
+  /*background-color: pink;*/
+  margin-bottom: 10%;
+}
+
+/* Contact links*/
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.section-links {
+  /*background-color: pink;*/
+}
+</style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="head">
+      <div class="profile-image">
+        <img src="https://" alt="Picture of Gábor Kisfalvi">
+      </div>
+      <div class="name-headline">
+        <h1>Gábor Kisfalvi</h1>
+        <h4>Software Tester, Site builder</h4>
+        <p>from</p>
+        <i class="fa fa-map-marker"> <strong>Budapest, HU</strong></i>
+      </div>
+      </div>
+    <div class="content">
+      <div class="about">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra dui nec elit ullamcorper feugiat. In a vestibulum magna. Nulla imperdiet ligula at mauris ornare cursus. Sed in felis at arcu consequat viverra in eget lectus. Quisque nulla mi, viverra accumsan arcu et, tincidunt molestie odio. Sed eu nunc dictum, pellentesque orci a, cursus sem. Curabitur vitae quam at sapien eleifend eleifend et eu tortor.
+  </p>
+      </div>
+      <div class="section-links">
+         <h2>Contact me via:</h2>
+        <ul>
+          <li><a href="https://https://hu.linkedin.com/in/g%C3%A1bor-kisfalvi-7a57bb12a" title="Linkedin" class="social-icon"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></li>
+         <!-- <li><a href="https://instagram.com/#" title="Instagram" class="social-icon"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://behance.net/#" title="Behance" class="social-icon"><i class="fa fa-2x fa-behance-square" aria-hidden="true"></i></a></li>-->
+        </ul>
+           </div>
+      
+    </div>
+  </div>
+</body>
+</html>
